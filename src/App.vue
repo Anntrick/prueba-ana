@@ -12,7 +12,8 @@
 </template>
 
 <style lang="scss">
-body {
+
+ body {
   margin: 0;
 }
 
@@ -22,6 +23,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -33,9 +37,17 @@ header {
   color: white;
 }
 
+footer {
+  display: block;
+  height: 30px;
+  background-color: #1a8ff3;
+  color: white;
+  margin-top: auto;
+  padding-top: 15px;
+}
+
 nav {
   padding: 20px 30px;
-
   a {
     font-weight: bold;
     color: white;
