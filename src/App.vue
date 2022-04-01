@@ -35,6 +35,7 @@ header {
   justify-content: space-between;
   background-color: #1a8ff3;
   color: white;
+  padding-left: 30px;
 }
 
 footer {
