@@ -10,7 +10,10 @@ export default createStore({
   },
   mutations: {
     addPosts(state, data) {
-      state.posts.push(data)
+      state.posts = data
+    },
+    addContact(state, data) {
+      state.contacts.push(data)
     }
   },
   actions: {

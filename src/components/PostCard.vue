@@ -6,10 +6,7 @@
       </div>
     </div>
     <div class="card-body">
-      {{body.slice(0,100)}}
-    </div>
-    <div class="card-footer">
-      <a :href="url">Leer más</a>
+      {{body}}
     </div>
   </div>
 </template>
@@ -21,26 +18,17 @@ export default {
     title: String,
     body: String,
     id: Number
-  },
-  data () {
-    return {
-      url: "post/" + this.id
-    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
   .card-body {
     padding: 15px 0;
     p {
       margin: 0;
     }
-  }
-
-  .card-footer {
-    padding: 15px 0;
   }
 
   .card-header {
