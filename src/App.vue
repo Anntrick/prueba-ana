@@ -1,14 +1,16 @@
 <template>
-  <header>
-    Prueba Ana
-     <nav>
-      <router-link to="/">Inicio</router-link> |
-      <router-link to="/autor">Autor</router-link> |
-      <router-link to="/contact">Contacto</router-link>
-    </nav>
-  </header> 
-  <router-view/>
-  <footer>Ana del Pino - 2022</footer>
+  <div>
+    <header>
+      Prueba Ana
+      <nav>
+        <router-link to="/">Inicio</router-link> |
+        <router-link to="/autor">Autor</router-link> |
+        <router-link to="/contact">Contacto</router-link>
+      </nav>
+    </header> 
+    <router-view/>
+    <footer>Ana del Pino - 2022</footer>
+  </div>
 </template>
 
 <style lang="scss">

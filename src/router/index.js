@@ -21,13 +21,14 @@ const routes = [
     component: ContactView
   },
   {
-    path: '/post:id',
+    path: '/post/:id',
     name: 'post',
     component: PostView
   }
 ]
 
 const router = createRouter({
+  // eslint-disable-next-line
   history: createWebHistory(process.env.BASE_URL),
   routes
 })

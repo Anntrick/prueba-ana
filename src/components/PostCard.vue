@@ -24,7 +24,7 @@ export default {
   },
   data () {
     return {
-      url: "post" + this.id
+      url: "post/" + this.id
     }
   }
 }

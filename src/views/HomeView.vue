@@ -3,7 +3,7 @@
     <div v-for="post in posts" :key="post.id">
       <post-card :title="post.title" :body="post.body" :id="post.id">
       </post-card>
-      
+       --v
     </div>
   </div>
 </template>
